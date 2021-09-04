@@ -61,3 +61,22 @@ def p2h(ini, fi):
 
 def p2i(n_fotos):
     return (n_fotos * 1500) + ((n_fotos * 1500) * 0.16)
+
+def p2j(monto):
+    ginecologia =  monto * 0.4
+    traumatologia = monto * 0.3
+    pediatria = monto * 0.3
+    return ginecologia, traumatologia, pediatria
+
+
+
+
+
+
+
+
+
+
+
+
+
