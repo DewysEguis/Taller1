@@ -50,3 +50,8 @@ def p2e(n_pa, tam, col):
 
 def p2f(ti):
     return 100000 + (120000 * (ti - 1))
+
+def p2g(ti_h):
+    des = (ti_h * 20000) * 0.05
+    pago = ti_h * 20000 - des
+    return pago, des
