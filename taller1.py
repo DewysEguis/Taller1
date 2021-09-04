@@ -55,3 +55,6 @@ def p2g(ti_h):
     des = (ti_h * 20000) * 0.05
     pago = ti_h * 20000 - des
     return pago, des
+
+def p2h(ini, fi):
+    return (ini - fi) - ((ini - fi) * 0.2)
