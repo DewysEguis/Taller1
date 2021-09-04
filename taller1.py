@@ -71,6 +71,11 @@ def p2j(monto):
 def p2k(n_pel, n_dias):
     return ((n_pel - 1) * 1500) * n_dias
 
+def p2l(n_personas, n_dias):
+    total = (n_personas * 25000) * n_dias
+    total_iva = total + total * 0.12
+    return total_iva
+
 
 
 
