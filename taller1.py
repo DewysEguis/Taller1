@@ -43,3 +43,4 @@ def p2d(sueldo):
     seguro_forsozo = sueldo * 0.005
     caja = sueldo * 0.05
     sueldo_final = sueldo - ley - seguro_social - seguro_forsozo - caja
+    return ley, seguro_social, seguro_forsozo, caja, sueldo_final
