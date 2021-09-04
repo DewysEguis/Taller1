@@ -68,6 +68,9 @@ def p2j(monto):
     pediatria = monto * 0.3
     return ginecologia, traumatologia, pediatria
 
+def p2k(n_pel, n_dias):
+    return ((n_pel - 1) * 1500) * n_dias
+
 
 
 
