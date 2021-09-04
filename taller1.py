@@ -79,6 +79,13 @@ def p2l(n_personas, n_dias):
 def p2m(n_dias):
     return ((n_dias - 1) * 200000) + 100000
 
+def p2n(mon_total):
+    tot_pago = (mon_total * 0.24) + mon_total
+    cuo_esp = tot_pago / 2 / 4
+    cou_ord = tot_pago / 2 / 20
+
+    return cuo_esp, cou_ord
+
 
 
 
