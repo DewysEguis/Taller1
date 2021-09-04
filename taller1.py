@@ -58,3 +58,6 @@ def p2g(ti_h):
 
 def p2h(ini, fi):
     return (ini - fi) - ((ini - fi) * 0.2)
+
+def p2i(n_fotos):
+    return (n_fotos * 1500) + ((n_fotos * 1500) * 0.16)
