@@ -36,3 +36,10 @@ def p2c(in1, in2, in3):
 
 def p2c(sal):
     return sal + (sal * 0.015)
+
+def p2d(sueldo):
+    ley = sueldo * 0.01
+    seguro_social = sueldo * 0.04
+    seguro_forsozo = sueldo * 0.005
+    caja = sueldo * 0.05
+    sueldo_final = sueldo - ley - seguro_social - seguro_forsozo - caja
