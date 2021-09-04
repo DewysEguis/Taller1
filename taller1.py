@@ -33,3 +33,6 @@ def p2c(in1, in2, in3):
     ptaje2 = in2 * 100 / total
     ptaje3 = in3 * 100 / total
     return ptaje1, ptaje2, ptaje3
+
+def p2c(sal):
+    return sal + (sal * 0.015)
