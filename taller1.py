@@ -76,6 +76,9 @@ def p2l(n_personas, n_dias):
     total_iva = total + total * 0.12
     return total_iva
 
+def p2m(n_dias):
+    return ((n_dias - 1) * 200000) + 100000
+
 
 
 
