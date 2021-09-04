@@ -47,3 +47,6 @@ def p2d(sueldo):
 
 def p2e(n_pa, tam, col):
     return (n_pa * 20000) + (tam * 15000) + (col * 25000)
+
+def p2f(ti):
+    return 100000 + (120000 * (ti - 1))
