@@ -44,3 +44,6 @@ def p2d(sueldo):
     caja = sueldo * 0.05
     sueldo_final = sueldo - ley - seguro_social - seguro_forsozo - caja
     return ley, seguro_social, seguro_forsozo, caja, sueldo_final
+
+def p2e(n_pa, tam, col):
+    return (n_pa * 20000) + (tam * 15000) + (col * 25000)
