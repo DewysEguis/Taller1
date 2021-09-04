@@ -21,5 +21,8 @@ def y3():
 
 # Ejercicios 2
 
-def p1(p, v, t):
+def p1a(p, v, t):
     return (p * v) / (0.37 * (t + 460))
+
+def p2b(ed):
+    return (200 - ed) / 10
