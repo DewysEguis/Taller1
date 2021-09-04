@@ -26,3 +26,10 @@ def p1a(p, v, t):
 
 def p2b(ed):
     return (200 - ed) / 10
+
+def p2c(in1, in2, in3):
+    total = in1 + in2 + in3
+    ptaje1 = in1 * 100 / total
+    ptaje2 = in2 * 100 / total
+    ptaje3 = in3 * 100 / total
+    return ptaje1, ptaje2, ptaje3
