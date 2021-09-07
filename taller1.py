@@ -86,6 +86,22 @@ def p2n(mon_total):
 
     return cuo_esp, cou_ord
 
+# Tabla de Verdad
+
+print(True and True)
+print(True and False)
+print(False and True)
+print(False and False)
+
+#Tabla del or
+
+print(True or True)
+print(True or False)
+print(False or True)
+print(False or False)
+
+
+
 
 
 
